@@ -1,0 +1,137 @@
+.font12{
+    font-size: 12px!important;
+}
+.font13{
+    font-size: 13px!important;
+}
+.font14{
+    font-size: 14px!important;
+}
+
+
+.employeeProfileDetail .profilePic{
+    width: 170px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center center;
+}
+.employeeProfileDetail .headingText h2{
+    font-size: 20px!important;
+    font-weight: 600;
+}
+.employeeProfileDetail .headingText h4{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.employeeProfileDetail .headingText p{
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+
+
+.msgWrap{
+    position: fixed;
+    right: 10px;
+    z-index: 9;
+    top: 80px;
+}
+
+
+
+
+
+.attechmentBox{
+    width:100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.attechmentBox a{
+    white-space: nowrap;
+}
+.attechmentBox img{
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40!important;
+    border-color: #454d55!important;
+}
+.table .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+
+
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    display: inline-block;
+}
+
+.custom-select select {
+    display: none;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 45%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+/*set the styling and height for the list when the select box is open (active), the overflow-y property controls the scrolling:*/
+.select-items {
+    border-radius: 0px 0px 10px 10px;
+    height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+    color: #080808;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: #58acf7;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* scrollbar handle on hover */
+.select-items::-webkit-scrollbar-thumb:hover {
+    background: #b9b8b8;
+}
